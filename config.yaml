@@ -1,0 +1,61 @@
+#香满园 端口配置
+app:
+  name: "web_app"
+  mode: "dev"
+  port: 8080
+  version: "v1"
+  https: "2"     #  1 代表htttps 请求  2代表http 请求
+  sslPem: "1_wyLoveeat.com_bundle.pem"
+  sslKey: "0_wyLoveeat.com.key"
+
+#日志
+log:
+  level: "debug"
+  filename: "web_app.log"
+  max_size: 300  #每个人日志文件大小
+  max_age: 30    #存储天数
+  max_backups: 7 #备份数量
+
+#数据库 配置
+mysql:
+  host: "47.243.39.176"
+  port: "3306"
+  user: "MgHash"
+  password: "ddYzGT3pwF7YSnrT"
+  dbname: "mghash"
+
+
+#redis  配置
+redis:
+  host: "47.243.39.176"
+  port: 6379
+  db: 10
+  password: "wy011620."
+  pool_size: 20
+
+
+# 系统设置
+eth:
+  apikey: "5YJ37XCEQFSEDMMI6RXZ756QB7HS2VT921"
+  ethUrl: "https://mainnet.infura.io/v3/a73f8de0d9974dd7a35c5d241e24e853"
+  https: "1"     #  1 代表htttps 请求  2代表http 请求
+  sslPem: "1_wyLoveeat.com_bundle.pem"
+  sslKey: "0_wyLoveeat.com.key"
+
+
+#hash配置
+
+hash:
+  NiuNiuCommon: "NiuNiuCommon"   #牛牛普通地址
+  NiuNiuVip: "NiuNiuVip"            #牛牛vip地址
+  DsCommon: "DsCommon"     #单双普通
+  DsVip: "DsVip"   #单双vip
+  XyCommon: "XyCommon"   #幸运普通
+  XyVip: "XyVip"    #幸运Vip
+  BjLCommon: "BjLCommon"  #百家乐普通
+  BjLVip: "BjLVip"   #百家乐vip
+  WebUrl: "http://www.mghx77.com/"
+  Channel: "https://t.me/mangguojingcai"
+  HashToken: "5445640379:AAETpJt9-ZxrZzfpLp38X4S7t5VHGq-aK0A"
+
+

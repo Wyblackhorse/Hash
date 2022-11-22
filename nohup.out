@@ -1,0 +1,681 @@
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+panic: runtime error: slice bounds out of range [-3:]
+
+goroutine 22 [running]:
+github.com/wangyi/MgHash/util.DsResult(0x0, 0x0, 0x4026000000000000, 0x0)
+	/www/wwwroot/MgHash/util/util.go:105 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc0002b88c8, 0x8, 0xc06, 0x3, 0xc0002b885c, 0x4, 0xc000376040, 0x40, 0xc00052c060, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:264 +0xb0a
+github.com/wangyi/MgHash/model.GetResult(0xc000364820)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:289 +0x22e
+created by main.main
+	/www/wwwroot/MgHash/main.go:55 +0x3cd
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+panic: runtime error: slice bounds out of range [-5:]
+
+goroutine 34 [running]:
+github.com/wangyi/MgHash/util.GetNiuNiuResultForBanker(0x0, 0x0, 0xc0000ec000, 0x0, 0x0)
+	/www/wwwroot/MgHash/util/util.go:45 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc0002d2298, 0x8, 0xe85, 0x1, 0xc0002d223c, 0x4, 0xc0006fd440, 0x40, 0xc0002bdda0, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:183 +0xe7a
+github.com/wangyi/MgHash/model.GetResult(0xc000382dd0)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:289 +0x22e
+created by main.main
+	/www/wwwroot/MgHash/main.go:55 +0x3cd
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+{
+    "game":"牛牛",
+    "tx":{
+        "txHash":"587954eed9554e5825abfe2899aa49bdb8851fa9cf3887419fcc7f753103c108",
+        "blockNumber":39919503,
+        "blockHash":"0000000002611f8f2612d308992b94faefc9458128b0514eb01fe5a42b66a11f",
+        "timestamp":1650310104000,
+        "from":"TU8bHMKye2pbbix3HK78dy1XTGJ52FobuC",
+        "to":"TLAvU1jwsZTMwHx9DNJBwyAnGZSUu34py6",
+        "amount":10000000,
+        "wagerType":"牛二",
+        "lotteryType":"牛七",
+        "token":"usdt",
+        "win":0,
+        "status":2,
+        "bonus":3000000,
+        "settleTx":"9934fa976e5815da7801d2075cbfa88480753795edc948fef88fd52b3efe1c97"
+    }
+}
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (1 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (1 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (1 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (1 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (1 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (1 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+map[kinds:2]
+map[name:尾数]
+map[name:牛牛]
+map[kinds:2]
+map[kinds:1]
+map[name:尾数]
+map[name:牛牛]
+map[kinds:2]
+map[name:单双]
+map[name:牛牛]
+map[kinds:2]
+map[name:尾数]
+map[name:牛牛]
+map[kinds:2]
+map[name:尾数]
+map[name:牛牛]
+map[kinds:1]
+map[kinds:1]
+map[kinds:2]
+map[kinds:1]
+map[kinds:2]
+map[kinds:2]
+map[kinds:1]
+map[kinds:1]
+map[kinds:2]
+map[kinds:1]
+map[kinds:1]
+map[kinds:2]
+2022/04/19 15:22:48 http: panic serving 223.198.163.42:39744: runtime error: slice bounds out of range [:5] with length 0
+goroutine 13792 [running]:
+net/http.(*conn).serve.func1(0xc00028b4a0)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0004d55c0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc0005d3300)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc0005d3300)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc0005d3300)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d3b20, 0xc0003c4e00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d3b20, 0xc0003c4e00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028b4a0, 0xe32b40, 0xc000078fc0)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:22:53 http: panic serving 223.198.163.42:39775: runtime error: slice bounds out of range [:5] with length 0
+goroutine 13876 [running]:
+net/http.(*conn).serve.func1(0xc00028a140)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc000390820)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc0003c4d00)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc0003c4d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc0003c4d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc000186460, 0xc0006f8d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc000186460, 0xc0006f8d00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028a140, 0xe32b40, 0xc0000781c0)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:22:57 http: panic serving 223.198.163.42:39807: runtime error: slice bounds out of range [:5] with length 0
+goroutine 13918 [running]:
+net/http.(*conn).serve.func1(0xc000155400)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc00029e820)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc000158600)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc000158600)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc000158600)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc000186ee0, 0xc000159c00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc000186ee0, 0xc000159c00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000155400, 0xe32b40, 0xc00034aac0)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:15 http: panic serving 223.198.163.42:39854: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14019 [running]:
+net/http.(*conn).serve.func1(0xc000154320)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc000391aa0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc0006f9400)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc0006f9400)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc0006f9400)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d20e0, 0xc0006f9100)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d20e0, 0xc0006f9100)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000154320, 0xe32b40, 0xc00034a440)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:17 http: panic serving 47.57.189.169:47576: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14009 [running]:
+net/http.(*conn).serve.func1(0xc00028a000)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0004d45a0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc0003c4700)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc0003c4700)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc0003c4700)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d2460, 0xc0003c4d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d2460, 0xc0003c4d00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028a000, 0xe32b40, 0xc0000780c0)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:17 http: panic serving 47.57.189.169:47582: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14010 [running]:
+net/http.(*conn).serve.func1(0xc00028a140)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0003919e0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc0003c4400)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc0003c4400)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc0003c4400)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc000186540, 0xc000158d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc000186540, 0xc000158d00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028a140, 0xe32b40, 0xc000078140)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:17 http: panic serving 47.57.189.169:47730: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14026 [running]:
+net/http.(*conn).serve.func1(0xc000155040)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc000391ec0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc000170f00)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc000170f00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc000170f00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc000186620, 0xc000158a00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc000186620, 0xc000158a00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000155040, 0xe32b40, 0xc00034a640)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:17 http: panic serving 47.57.189.169:47850: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14031 [running]:
+net/http.(*conn).serve.func1(0xc000154000)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0004d52c0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc00031ca00)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc00031ca00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc00031ca00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d2ee0, 0xc000171100)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d2ee0, 0xc000171100)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000154000, 0xe32b40, 0xc00034b300)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:25 http: panic serving 47.57.189.169:49826: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14082 [running]:
+net/http.(*conn).serve.func1(0xc000154320)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0003917a0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc000170800)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc000170800)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc000170800)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc000186460, 0xc000170a00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc000186460, 0xc000170a00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000154320, 0xe32b40, 0xc000078180)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:25 http: panic serving 47.57.189.169:49824: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14065 [running]:
+net/http.(*conn).serve.func1(0xc000154000)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc00029e820)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc00031c800)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc00031c800)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc00031c800)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d2ee0, 0xc00031d600)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d2ee0, 0xc00031d600)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000154000, 0xe32b40, 0xc0000780c0)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:25 http: panic serving 47.57.189.169:50076: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14076 [running]:
+net/http.(*conn).serve.func1(0xc000154f00)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0006b0140)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc000159900)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc000159900)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc000159900)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc000186540, 0xc00031d800)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc000186540, 0xc00031d800)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000154f00, 0xe32b40, 0xc00034abc0)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:25 http: panic serving 47.57.189.169:50110: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14092 [running]:
+net/http.(*conn).serve.func1(0xc00028a500)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0004d4120)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc00031d700)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc00031d700)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc00031d700)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d35e0, 0xc00031d900)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d35e0, 0xc00031d900)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028a500, 0xe32b40, 0xc000078880)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:35 http: panic serving 47.57.189.169:52432: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14126 [running]:
+net/http.(*conn).serve.func1(0xc00028a500)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0004d5100)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc0003c4100)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc0003c4100)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc0003c4100)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d2460, 0xc0003c4d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d2460, 0xc0003c4d00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028a500, 0xe32b40, 0xc000078680)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:35 http: panic serving 47.57.189.169:52434: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14127 [running]:
+net/http.(*conn).serve.func1(0xc00028a640)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0004d41e0)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc000623900)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc000623900)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc000623900)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc000186700, 0xc0003c4b00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc000186700, 0xc0003c4b00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028a640, 0xe32b40, 0xc000078740)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:35 http: panic serving 47.57.189.169:52824: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14141 [running]:
+net/http.(*conn).serve.func1(0xc00028a8c0)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0006b0560)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc000158700)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc000158700)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc000158700)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d20e0, 0xc000171000)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d20e0, 0xc000171000)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc00028a8c0, 0xe32b40, 0xc000078d80)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+2022/04/19 15:23:35 http: panic serving 47.57.189.169:52870: runtime error: slice bounds out of range [:5] with length 0
+goroutine 14144 [running]:
+net/http.(*conn).serve.func1(0xc000154000)
+	/usr/local/go/src/net/http/server.go:1801 +0x147
+panic(0xcbe440, 0xc0004d4d60)
+	/usr/local/go/src/runtime/panic.go:975 +0x3e9
+github.com/wangyi/MgHash/controller.GetRecord(0xc000159d00)
+	/www/wwwroot/MgHash/controller/TransactionRecordController.go:61 +0xf08
+github.com/gin-gonic/gin.(*Context).Next(0xc000159d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/context.go:168 +0x3b
+github.com/gin-gonic/gin.(*Engine).handleHTTPRequest(0xc00033e680, 0xc000159d00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:555 +0x63e
+github.com/gin-gonic/gin.(*Engine).ServeHTTP(0xc00033e680, 0xe30500, 0xc0002d22a0, 0xc000159b00)
+	/root/go/pkg/mod/github.com/gin-gonic/gin@v1.7.7/gin.go:511 +0x16b
+net/http.serverHandler.ServeHTTP(0xc0001861c0, 0xe30500, 0xc0002d22a0, 0xc000159b00)
+	/usr/local/go/src/net/http/server.go:2843 +0xa3
+net/http.(*conn).serve(0xc000154000, 0xe32b40, 0xc000078900)
+	/usr/local/go/src/net/http/server.go:1925 +0x8ad
+created by net/http.(*Server).Serve
+	/usr/local/go/src/net/http/server.go:2969 +0x36c
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (2 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (2 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (2 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (2 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (2 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+panic: runtime error: slice bounds out of range [-3:]
+
+goroutine 25 [running]:
+github.com/wangyi/MgHash/util.DsResult(0x0, 0x0, 0x4054000000000000, 0x0)
+	/www/wwwroot/MgHash/util/util.go:108 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc0000eff98, 0x8, 0x1739, 0x3, 0xc0000eff3c, 0x4, 0xc00015fb00, 0x40, 0xc0005d12c0, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:280 +0xf4a
+github.com/wangyi/MgHash/model.GetResult(0xc000362750)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:304 +0x22e
+created by main.main
+	/www/wwwroot/MgHash/main.go:57 +0x3fd
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (2 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (2 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (2 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (2 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (2 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (2 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (2 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (2 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (2 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (2 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (2 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (2 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (2 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (2 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (2 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (2 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (2 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (2 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (2 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (2 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (2 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (2 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (2 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (2 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (2 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (2 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (2 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (2 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080

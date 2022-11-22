@@ -1,0 +1,2068 @@
+2022/05/27 22:10:50 程序运行路径:/www/wwwroot/MgHash
+2022/05/27 22:10:50 24922 : 启动子进程成功: -> 24927 
+ 
+2022/05/27 22:10:50 程序运行路径:/www/wwwroot/MgHash
+2022/05/27 22:10:50 子进程pid=24927: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+--
+
+[35m(/www/wwwroot/MgHash/controller/web_api/user.go:132)[0m 
+[33m[2022-05-27 23:37:36][0m [31;1m sql: Scan error on column index 5, name "money": converting driver.Value type []uint8 ("100.00") to a int64: invalid syntax [0m
+2022/05/27 23:38:57 程序运行路径:/www/wwwroot/MgHash
+2022/05/27 23:38:57 30263 : 启动子进程成功: -> 30268 
+ 
+2022/05/27 23:38:57 程序运行路径:/www/wwwroot/MgHash
+2022/05/27 23:38:57 子进程pid=30268: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Environment variable PORT is undefined. Using port :8080 by default
+[GIN-debug] Listening and serving HTTP on :8080
+--
+
+[35m(/www/wwwroot/MgHash/controller/web_api/user.go:132)[0m 
+[33m[2022-05-27 23:42:07][0m [31;1m sql: Scan error on column index 5, name "money": converting driver.Value type []uint8 ("100.00") to a int64: invalid syntax [0m
+
+[35m(/www/wwwroot/MgHash/controller/web_api/user.go:132)[0m 
+[33m[2022-05-27 23:45:37][0m [31;1m sql: Scan error on column index 5, name "money": converting driver.Value type []uint8 ("100.00") to a int64: invalid syntax [0m
+2022/05/30 03:32:40 程序运行路径:/www/wwwroot/MgHash
+2022/05/30 03:32:40 2959 : 启动子进程成功: -> 2964 
+ 
+2022/05/30 03:32:40 程序运行路径:/www/wwwroot/MgHash
+2022/05/30 03:32:40 子进程pid=2964: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+--
+2022/05/30 03:33:08 程序运行路径:/www/wwwroot/MgHash
+2022/05/30 03:33:08 3011 : 启动子进程成功: -> 3016 
+ 
+2022/05/30 03:33:08 程序运行路径:/www/wwwroot/MgHash
+2022/05/30 03:33:08 子进程pid=3016: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+--
+2022/06/02 07:31:06 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 07:31:06 14226 : 启动子进程成功: -> 14231 
+ 
+2022/06/02 07:31:06 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 07:31:06 子进程pid=14231: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2022/06/02 07:31:31 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 07:31:31 14279 : 启动子进程成功: -> 14284 
+ 
+2022/06/02 07:31:31 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 07:31:31 子进程pid=14284: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+--
+--
+--
+
+
+false
+--
+2022/06/02 19:42:00 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 19:42:00 26750 : 启动子进程成功: -> 26755 
+ 
+2022/06/02 19:42:00 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 19:42:00 子进程pid=26755: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2022/06/02 19:58:52 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 19:58:52 28221 : 启动子进程成功: -> 28226 
+ 
+2022/06/02 19:58:52 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 19:58:52 子进程pid=28226: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+true
+false
+配置文件修改了!
+配置文件修改了!
+配置文件修改了!
+配置文件修改了!
+--
+2022/06/02 23:51:02 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:51:02 10477 : 启动子进程成功: -> 10482 
+ 
+2022/06/02 23:51:02 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:51:02 子进程pid=10482: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+2022/06/02 23:51:04 守护进程(pid:10477; count:1/0; errNum:0/10): 监视到子进程(10482)退出, 共运行了2秒: <nil>
+2022/06/02 23:51:04 10477 : 启动子进程成功: -> 10491 
+ 
+2022/06/02 23:51:04 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:51:04 子进程pid=10491: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+2022/06/02 23:51:05 守护进程(pid:10477; count:2/0; errNum:1/10): 监视到子进程(10491)退出, 共运行了1秒: <nil>
+2022/06/02 23:51:05 10477 : 启动子进程成功: -> 10500 
+ 
+2022/06/02 23:51:05 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:51:05 子进程pid=10500: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+2022/06/02 23:51:07 守护进程(pid:10477; count:3/0; errNum:2/10): 监视到子进程(10500)退出, 共运行了2秒: <nil>
+2022/06/02 23:51:07 10477 : 启动子进程成功: -> 10506 
+ 
+2022/06/02 23:51:07 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:51:07 子进程pid=10506: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+[GIN-debug] [ERROR] listen tcp :8080: bind: address already in use
+2022/06/02 23:51:08 守护进程(pid:10477; count:4/0; errNum:3/10): 监视到子进程(10506)退出, 共运行了1秒: <nil>
+2022/06/02 23:51:08 10477 : 启动子进程成功: -> 10515 
+ 
+2022/06/02 23:51:08 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:51:08 子进程pid=10515: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+2022/06/02 23:54:33 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:54:33 2546 : 启动子进程成功: -> 2551 
+ 
+2022/06/02 23:54:33 程序运行路径:/www/wwwroot/MgHash
+2022/06/02 23:54:33 子进程pid=2551: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+--
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+2022/06/06 19:03:43 程序运行路径:/www/wwwroot/MgHash
+2022/06/06 19:03:43 18831 : 启动子进程成功: -> 18836 
+ 
+2022/06/06 19:03:43 程序运行路径:/www/wwwroot/MgHash
+2022/06/06 19:03:43 子进程pid=18836: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+0
+0
+0
+0
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2022/06/11 02:49:23 程序运行路径:/www/wwwroot/MgHash
+2022/06/11 02:49:23 15024 : 启动子进程成功: -> 15029 
+ 
+2022/06/11 02:49:23 程序运行路径:/www/wwwroot/MgHash
+2022/06/11 02:49:23 子进程pid=15029: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2022/06/12 05:20:44 程序运行路径:/www/wwwroot/MgHash
+2022/06/12 05:20:44 16892 : 启动子进程成功: -> 16897 
+ 
+2022/06/12 05:20:44 程序运行路径:/www/wwwroot/MgHash
+2022/06/12 05:20:44 子进程pid=16897: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+50
+0
+0
+0
+0
+50
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+50
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+4
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+4
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0.09
+0
+0.09
+0
+0
+0.09
+0
+0.09
+0
+0
+0.09
+0
+0.09
+0
+50
+0.09
+0
+0.09
+0
+100
+0.09
+0
+0.09
+0
+panic: runtime error: slice bounds out of range [-3:]
+
+goroutine 29 [running]:
+github.com/wangyi/MgHash/util.DsResult(0x0, 0x0, 0x4049000000000000, 0x0)
+	/www/wwwroot/MgHash/util/util.go:123 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc000626710, 0x8, 0x20ca, 0xc, 0xc0006266f2, 0x3, 0xc0003cab80, 0x40, 0xc0008ce180, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:306 +0x14ce
+github.com/wangyi/MgHash/model.GetResult(0xc0003a3380)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:366 +0x2c5
+created by github.com/wangyi/MgHash/cmd.run
+	/www/wwwroot/MgHash/cmd/server.go:99 +0x45d
+2022/06/15 22:11:07 守护进程(pid:16892; count:1/0; errNum:0/10): 监视到子进程(16897)退出, 共运行了319823秒: exit status 2
+2022/06/15 22:11:07 16892 : 启动子进程成功: -> 20621 
+ 
+2022/06/15 22:11:07 程序运行路径:/www/wwwroot/MgHash
+2022/06/15 22:11:07 子进程pid=20621: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+150
+0.09
+panic: runtime error: slice bounds out of range [-3:]
+
+goroutine 10 [running]:
+github.com/wangyi/MgHash/util.DsResult(0x0, 0x0, 0x4049000000000000, 0x0)
+	/www/wwwroot/MgHash/util/util.go:123 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc000438a70, 0x8, 0x20ca, 0xc, 0xc000438a52, 0x3, 0xc00003e180, 0x40, 0xc0000ac450, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:306 +0x14ce
+github.com/wangyi/MgHash/model.GetResult(0xc0004232b0)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:366 +0x2c5
+created by github.com/wangyi/MgHash/cmd.run
+	/www/wwwroot/MgHash/cmd/server.go:99 +0x45d
+2022/06/15 22:11:08 守护进程(pid:16892; count:2/0; errNum:0/10): 监视到子进程(20621)退出, 共运行了1秒: exit status 2
+2022/06/15 22:11:08 16892 : 启动子进程成功: -> 20628 
+ 
+2022/06/15 22:11:08 程序运行路径:/www/wwwroot/MgHash
+2022/06/15 22:11:08 子进程pid=20628: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+150
+0.09
+0
+0.09
+0
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+100
+0
+0
+0
+0
+200
+0
+0
+0
+0
+2022/06/16 23:32:39 telebot: Post "https://api.telegram.org/bot5445640379:AAETpJt9-ZxrZzfpLp38X4S7t5VHGq-aK0A/getUpdates": read tcp 172.31.138.60:60484->149.154.167.220:443: read: connection reset by peer
+47.9
+0
+0
+0
+0
+47.9
+0
+0
+0
+0
+47.9
+0
+0
+0
+0
+47.9
+0
+0
+0
+0
+47.9
+0
+0
+0
+0
+197.9
+0
+0
+0
+0
+panic: runtime error: slice bounds out of range [-3:]
+
+goroutine 13 [running]:
+github.com/wangyi/MgHash/util.DsResult(0x0, 0x0, 0x4038000000000000, 0x0)
+	/www/wwwroot/MgHash/util/util.go:123 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc00032bcd0, 0x8, 0x20de, 0xc, 0xc00032bcb2, 0x3, 0xc0004a9940, 0x40, 0xc0000af4d0, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:306 +0x14ce
+github.com/wangyi/MgHash/model.GetResult(0xc000383c70)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:366 +0x2c5
+created by github.com/wangyi/MgHash/cmd.run
+	/www/wwwroot/MgHash/cmd/server.go:99 +0x45d
+2022/06/17 18:20:15 守护进程(pid:16892; count:3/0; errNum:1/10): 监视到子进程(20628)退出, 共运行了158947秒: exit status 2
+2022/06/17 18:20:15 16892 : 启动子进程成功: -> 20931 
+ 
+2022/06/17 18:20:15 程序运行路径:/www/wwwroot/MgHash
+2022/06/17 18:20:15 子进程pid=20931: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+221.9
+0
+0
+0
+0
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+495.9
+0
+0
+0
+0
+100
+0
+0
+0
+0
+350
+0
+0
+0
+0
+350
+0
+0
+0
+0
+350
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+350
+0
+0
+0
+0
+350
+0
+0
+0
+0
+658.6
+0
+0
+0
+0
+1368.85
+0
+0
+0
+0
+panic: runtime error: slice bounds out of range [-3:]
+
+goroutine 9 [running]:
+github.com/wangyi/MgHash/util.DsResult(0x0, 0x0, 0x4008000000000000, 0x0)
+	/www/wwwroot/MgHash/util/util.go:123 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc00046cb20, 0x8, 0x2120, 0xc, 0xc00046cb02, 0x3, 0xc00063e600, 0x40, 0xc00049e390, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:306 +0x14ce
+github.com/wangyi/MgHash/model.GetResult(0xc0003aaf70)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:366 +0x2c5
+created by github.com/wangyi/MgHash/cmd.run
+	/www/wwwroot/MgHash/cmd/server.go:99 +0x45d
+2022/06/18 21:35:21 守护进程(pid:16892; count:4/0; errNum:0/10): 监视到子进程(20931)退出, 共运行了98106秒: exit status 2
+2022/06/18 21:35:21 16892 : 启动子进程成功: -> 24087 
+ 
+2022/06/18 21:35:21 程序运行路径:/www/wwwroot/MgHash
+2022/06/18 21:35:21 子进程pid=24087: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+1391.85
+0
+0
+0
+0
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+0
+0
+0
+0
+0
+1.05
+0
+0
+0
+0
+1.05
+0
+0
+0
+0
+1.05
+0
+0
+0
+0
+78.05
+0
+0
+0
+0
+78.05
+0
+0
+0
+0
+274.3
+0
+0
+0
+0
+panic: runtime error: slice bounds out of range [-3:]
+
+goroutine 11 [running]:
+github.com/wangyi/MgHash/util.DsResult(0x0, 0x0, 0x4037000000000000, 0x0)
+	/www/wwwroot/MgHash/util/util.go:123 +0x32a
+github.com/wangyi/MgHash/model.GetBlockHash(0xc000542a10, 0x8, 0x214b, 0xc, 0xc0005429e2, 0x3, 0xc00086fa80, 0x40, 0xc00096ff80, 0x22, ...)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:306 +0x14ce
+github.com/wangyi/MgHash/model.GetResult(0xc0003ab040)
+	/www/wwwroot/MgHash/model/transactionRecordModel.go:366 +0x2c5
+created by github.com/wangyi/MgHash/cmd.run
+	/www/wwwroot/MgHash/cmd/server.go:99 +0x45d
+2022/06/19 20:23:39 守护进程(pid:16892; count:5/0; errNum:0/10): 监视到子进程(24087)退出, 共运行了82098秒: exit status 2
+2022/06/19 20:23:39 16892 : 启动子进程成功: -> 10613 
+ 
+2022/06/19 20:23:39 程序运行路径:/www/wwwroot/MgHash
+2022/06/19 20:23:39 子进程pid=10613: 开始运行...
+值:MgHash读取配置成功
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+数据库已经存在了!
+834.23
+0
+0
+0
+0
+[GIN-debug] [WARNING] Running in "debug" mode. Switch to "release" mode in production.
+ - using env:	export GIN_MODE=release
+ - using code:	gin.SetMode(gin.ReleaseMode)
+
+[GIN-debug] GET    /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] HEAD   /static/*filepath         --> github.com/gin-gonic/gin.(*RouterGroup).createStaticHandler.func1 (5 handlers)
+[GIN-debug] GET    /transactions             --> github.com/wangyi/MgHash/controller.Transactions (5 handlers)
+[GIN-debug] GET    /GetTransactionInfoById   --> github.com/wangyi/MgHash/controller.GetTransactionInfoById (5 handlers)
+[GIN-debug] GET    /SetPlay                  --> github.com/wangyi/MgHash/controller.SetPlay (5 handlers)
+[GIN-debug] GET    /GetRecord                --> github.com/wangyi/MgHash/controller.GetRecord (5 handlers)
+[GIN-debug] POST   /testApi                  --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] POST   /ReceivePush              --> github.com/wangyi/MgHash/controller.ReceivePush (5 handlers)
+[GIN-debug] GET    /SetEverydayStatistics    --> github.com/wangyi/MgHash/controller.SetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /GetEverydayStatistics    --> github.com/wangyi/MgHash/controller.GetEverydayStatistics (5 handlers)
+[GIN-debug] GET    /getL                     --> github.com/wangyi/MgHash/logger.GinRecovery.func1 (4 handlers)
+[GIN-debug] GET    /GetUsers                 --> github.com/wangyi/MgHash/controller.GetUsers (5 handlers)
+[GIN-debug] GET    /web_api/register         --> github.com/wangyi/MgHash/controller/web_api.Register (5 handlers)
+[GIN-debug] GET    /web_api/login            --> github.com/wangyi/MgHash/controller/web_api.Login (5 handlers)
+[GIN-debug] GET    /web_api/getConfig        --> github.com/wangyi/MgHash/controller/web_api.GetConfig (5 handlers)
+[GIN-debug] GET    /web_api/eeaMoney         --> github.com/wangyi/MgHash/controller/web_api.EeaMoney (5 handlers)
+[GIN-debug] GET    /web_api/getBetsList      --> github.com/wangyi/MgHash/controller/web_api.GetBetsList (5 handlers)
+[GIN-debug] GET    /web_api/myInvite         --> github.com/wangyi/MgHash/controller/web_api.MyInvite (5 handlers)
+---
+[GIN-debug] [WARNING] You trusted all proxies, this is NOT safe. We recommend you to set a value.
+Please check https://pkg.go.dev/github.com/gin-gonic/gin#readme-don-t-trust-all-proxies for details.
+[GIN-debug] Listening and serving HTTP on :8080
+1500.23
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2022/06/20 07:00:50 telegram: Bad Gateway (502)
+2022/06/20 07:00:50 telegram: Bad Gateway (502)
+2022/06/20 07:00:51 telegram: Bad Gateway (502)
+2022/06/20 07:00:51 telegram: Bad Gateway (502)
+2022/06/20 07:00:51 telegram: Bad Gateway (502)
+2022/06/20 07:00:51 telegram: Bad Gateway (502)
+2022/06/20 07:00:52 telegram: Bad Gateway (502)
+2022/06/20 07:00:52 telegram: Bad Gateway (502)
+2022/06/20 07:00:52 telegram: Bad Gateway (502)
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+25
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2022/06/21 08:54:25 telegram: Bad Gateway (502)
+2022/06/21 08:54:25 telegram: Bad Gateway (502)
+2022/06/21 08:54:25 telegram: Bad Gateway (502)
+2022/06/21 08:54:25 telegram: Bad Gateway (502)
+2022/06/21 08:54:26 telegram: Bad Gateway (502)
+2022/06/21 08:54:26 telegram: Bad Gateway (502)
+2022/06/21 08:54:26 telegram: Bad Gateway (502)
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+34
+0
+0
+0
+0
+104
+0
+0
+0
+0
+229
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+20
+0
+0
+0
+0
+30
+0
+0
+0
+0
+30
+0
+0
+0
+0
+30
+0
+0
+0
+0
+22
+0
+0
+0
+0
+22
+0
+0
+0
+0
+22
+0
+0
+0
+0
+22
+0
+0
+0
+0
+47
+0
+0
+0
+0
+47
+0
+0
+0
+0
+47
+0
+0
+0
+0
+47
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+10
+0
+0
+0
+0
+103.16
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+24
+0
+0
+0
+0
+24
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+82
+0
+0
+0
+0
+82
+0
+0
+0
+0
+82
+0
+0
+0
+0
+82
+0
+0
+0
+0
+82
+0
+0
+0
+0
+82
+0
+0
+0
+0
+82
+0
+0
+0
+0
+82
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+25
+0
+0
+0
+0
+79
+0
+0
+0
+0
+79
+0
+0
+0
+0
+79
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+10
+0
+0
+0
+0
+10
+0
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+false
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+10
+0
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+2022/07/04 16:32:55 telebot: Post "https://api.telegram.org/bot5445640379:AAETpJt9-ZxrZzfpLp38X4S7t5VHGq-aK0A/getUpdates": read tcp 172.31.138.60:59782->149.154.167.220:443: read: connection reset by peer
+0
+0
+0
+0
+0
+10
+0
+0
+0
+0
+10
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+75
+0
+0
+0
+0
+125
+0
+0
+0
+0
+496
+0
+0
+0
+0
+626
+0
+0
+0
+0
+2399
+0
+0
+0
+0
+2399
+0
+0
+0
+0
+2399
+0
+0
+0
+0
+2399
+0
+0
+0
+0
+2424
+0
+0
+0
+0
+2681
+0
+0
+0
+0
+2892.25
+0
+0
+0
+0
+3022.25
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+[GIN-debug] [WARNING] Headers were already written. Wanted to override status code 200 with 404
+125
+0
+0
+0
+0
+274
+0
+0
+0
+0
+424
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+0
+25
+0
+0
+0
+0
+25
+0
+0
+0
+0
+171.3
+11
+0
+0
+0
